@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-opendart",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Node-RED node for opendart",
   "main": "node.js",
   "scripts": {
@@ -25,6 +25,7 @@
     "opendart",
     "dart",
     "open api",
+    "nodejs",
     "재무제표",
     "상장기업",
     "사업보고서",
