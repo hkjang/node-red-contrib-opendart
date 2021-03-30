@@ -17,12 +17,13 @@ command in your Node-RED user directory, typically `~/.node-red`
 - https://www.npmjs.com/package/opendart
 
 ## Example 
+- 사전에 opendart 사이트에서 개발자 API Key 발급 필요
+- https://opendart.fss.or.kr/uss/umt/EgovMberInsertView.do
 
 ```javascript
 msg = {};
 msg.api = 'disclosure'
 msg.action = 'company'
-msg.accesstoken = 'ACCESS_TOKEN'
 msg.options = {
     'corp_code' : '00126380'
 }
